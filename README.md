@@ -1,2 +1,2 @@
 # Projeto-Python-1
-O projeto têm como objetivo é fornecer uma solução simples e eficiente para a administração de estabelecimentos gastronômicos, facilitando o registro e monitoramento das informações essenciais. 
+Este projeto é um sistema de gerenciamento para restaurantes que permite a realização das operações básicas de um CRUD (Create, Read, Update, Delete) para o cadastro de restaurantes, além de possibilitar a geração de pedidos para futuros clientes. O objetivo é fornecer uma solução simples e eficiente para a administração de estabelecimentos gastronômicos, facilitando o registro e monitoramento das informações essenciais.
