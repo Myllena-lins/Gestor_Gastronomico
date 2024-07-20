@@ -9,7 +9,7 @@ def salvar_dados(restaurantes, pedido):
         for item in pedido:
             arquivo_pedido.write(f"{item[0]},{item[1]},{item[2]},{item[3]}\n")
 
-
+ 
 def carregar_dados():
     restaurantes = []
     pedido = []
