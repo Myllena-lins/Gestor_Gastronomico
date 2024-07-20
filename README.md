@@ -1,4 +1,4 @@
-# Projeto Sistema de Restaurantes
+# Projeto de Gerenciamento de Restaurantes
 Este projeto foi elaborado no módulo 1 (Python) do curso de dados da Ada Tech. O módulo consistiu em criar um sistema com as características do CRUD, no qual foram aprendidas durante a aula. Além das funções básicas, foi incluída a funcionalidade de manipulação de arquivos para salvar e carregar dados.
 
 ## Funcionalidades do Sistema
