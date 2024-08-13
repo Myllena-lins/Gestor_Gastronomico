@@ -1,36 +1,33 @@
 # Gestor Gastronômico
-Este projeto foi elaborado no módulo 1 (Python) do curso de dados da Ada Tech. O módulo consistiu em criar um sistema com as características do CRUD, no qual foram aprendidas durante a aula. Além das funções básicas, foi incluída a funcionalidade de manipulação de arquivos para salvar e carregar dados.
+Este projeto foi elaborado no módulo 1 (Python) do curso de dados da Ada Tech. O sistema permite que restaurantes se registrem, adicionem pratos ao seu cardápio e atualizem suas ofertas, além de permitir que clientes façam pedidos, visualizem e cancelem pedidos. Os dados são salvos em arquivos de texto e podem ser carregados na inicialização do programa.
 
-## Funcionalidades do Sistema
-### Funções Principais
-- Salvar e Carregar Dados: Permite salvar os dados dos restaurantes e pedidos em arquivos de texto e carregá-los quando necessário.
-- Cadastrar Restaurante e Cardápio: Funções para adicionar novos restaurantes e pratos ao sistema.
-- Ver e Mudar Cardápio: Visualizar e alterar o cardápio de um restaurante.
-- Excluir Restaurante: Remover um restaurante do sistema.
-- Listar Restaurantes e Pratos: Listar todos os restaurantes cadastrados e os pratos disponíveis.
-- Listar e Cancelar Pedidos: Visualizar e cancelar pedidos realizados.
-- Menu Principal: Interface principal que permite navegação entre as opções do sistema.
+## Funcionalidades
+- Cadastro de Restaurantes: Restaurantes podem se cadastrar e adicionar pratos ao seu cardápio.
+- Gerenciamento do Cardápio:
+    - Adicionar Pratos: Restaurantes podem adicionar novos pratos ao cardápio.
+    - Visualizar Cardápio: Restaurantes podem visualizar os pratos atualmente disponíveis.
+    - Atualizar Pratos: Restaurantes podem alterar as informações de pratos existentes.
+    - Excluir Restaurante: Restaurantes podem ser removidos do sistema.
+- Clientes:
+    - Listar Restaurantes: Clientes podem visualizar todos os restaurantes cadastrados.
+    - Fazer Pedido: Clientes podem visualizar o cardápio dos restaurantes e fazer pedidos.
+    - Visualizar Pedido: Clientes podem visualizar os itens em seu pedido atual.
+    - Cancelar Pedido: Clientes podem cancelar seus pedidos antes da confirmação.
+- Persistência de Dados:
+    - Salvar Dados: O sistema salva informações de restaurantes e pedidos em arquivos de texto (dados.txt e pedido.txt).
+    - Carregar Dados: O sistema carrega dados salvos quando iniciado.
 
-### Descrição da Funcionalidade
-1. Menu Principal:
-    - Entrar como Prestador de Serviços (Restaurante):
-        1. Cadastrar Restaurante: Incluir nome do restaurante.
-        2. Cadastrar Cardápio: Incluir nome do prato, preço e tempo de entrega.
-        3. Ver Cardápio: Listar pratos já cadastrados.
-        4. Ajustar Cardápio: Alterar nome, preço ou tempo de entrega de um prato já cadastrado no sistema.
-        5. Excluir Restaurante: Deletar todas os dados do restaurante.
-        6. Sair.
+## Estrutura de Dados
+- dados.txt: Armazena informações dos restaurantes e seus cardápios.
+- pedido.txt: Armazena os pedidos feitos pelos clientes.
 
-    - Entrar como Cliente:
-        1. Conhecer Restaurantes: Listar restaurantes cadastrados.
-        2. Fazer Pedido: Digitar o nome do restaurante escolhido, ver a lista de pratos disponíveis e realizar o pedido.
-        3. Ver Pedido: Visualizar os detalhes do pedido.        
-        4. Cancelar Pedido: Deletar o pedido.
-        5. Sair.
+## Tecnologias Utilizadas
+- Python (módulos padrão: os, sys)
 
-    - Sair: Encerrar o sistema.
-## Estrutura do Código
-O código principal está estruturado em diversas funções que permitem a realização das operações descritas. As funções de salvar e carregar dados garantem a persistência das informações entre as execuções do programa.
+## Como Usar
+1. Execute o script Python para iniciar o programa.
+2. Escolha a opção desejada do menu principal (entrar como prestador de serviços ou cliente, ou sair).
+3. Siga as instruções no menu correspondente para realizar operações específicas.
 
 ## Observações Finais
 A criação desse sistema foi uma solução simples e aplicável em qualquer sistema de gerenciamento de restaurantes. Qualquer sugestão para melhoria do mesmo será bem-vinda!
