@@ -24,10 +24,5 @@ Este projeto foi elaborado no módulo 1 (Python) do curso de dados da Ada Tech. 
 ## Tecnologias Utilizadas
 - Python (módulos padrão: os, sys)
 
-## Como Usar
-1. Execute o script Python para iniciar o programa.
-2. Escolha a opção desejada do menu principal (entrar como prestador de serviços ou cliente, ou sair).
-3. Siga as instruções no menu correspondente para realizar operações específicas.
-
 ## Observações Finais
 A criação desse sistema foi uma solução simples e aplicável em qualquer sistema de gerenciamento de restaurantes. Qualquer sugestão para melhoria do mesmo será bem-vinda!
